@@ -1,3 +1,53 @@
+const imageFilenames = [
+  'achocard.png',
+  'aircard.png',
+  'animalcard.png',
+  'animalculecard.png',
+  'anthuorcard.png',
+  'barbarocard.png',
+  'buorthcard.png',
+  'cavecard.png',
+  'eggcard.png',
+  'firecard.png',
+  'forestcard.png',
+  'fungicard.png',
+  'humancard.png',
+  'insectcard.png',
+  'lifeforcecard.png',
+  'lightcard.png',
+  'magician-akker-card.png',
+  'magician-azer-card.png',
+  'magician-mether-card.png',
+  'magician-pip-card.png',
+  'magician-sezar-card.png',
+  'magician-tan-card.png',
+  'magician-tether-card.png',
+  'magician-yan-card.png',
+  'maidencard.png',
+  'memlencard.png',
+  'monster-djerr-card.png',
+  'monster-djeuwet-card.png',
+  'monster-gneuth-card.png',
+  'monster-gnew-card.png',
+  'monster-kehket-card.png',
+  'monster-kekew-card.png',
+  'monster-wehneh-card.png',
+  'monster-weweu-card.png',
+  'mountaincard.png',
+  'musiciancard.png',
+  'mysterycard.png',
+  'plaincard.png',
+  'plantcard.png',
+  'shadowcard.png',
+  'silencecard.png',
+  'soilcard.png',
+  'stonebookcard.png',
+  'timehuntercard.png',
+  'vernowcard.png',
+  'watercard.png',
+  'wormwoodcard.png'
+];
+
 let button;
 let img1, img2;
 let imgText1, imgText2;
@@ -5,9 +55,9 @@ let images = [];
 let texts = [];
 
 function preload() {
-  // Load images (placeholders)
-  for (let i = 0; i < 48; i++) {
-    images.push(loadImage(`img_${i}.png`));
+  // Load images
+  for (let i = 0; i < imageFilenames.length; i++) {
+    images.push(loadImage(imageFilenames[i]));
     texts.push(`Image ${i + 1} description`);
   }
 }

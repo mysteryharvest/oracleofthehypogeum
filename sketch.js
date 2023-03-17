@@ -1,51 +1,20 @@
-const imageFilenames = [
-  'achocard.png',
-  'aircard.png',
-  'animalcard.png',
-  'animalculecard.png',
-  'anthuorcard.png',
-  'barbarocard.png',
-  'buorthcard.png',
-  'cavecard.png',
-  'eggcard.png',
-  'firecard.png',
-  'forestcard.png',
-  'fungicard.png',
-  'humancard.png',
-  'insectcard.png',
-  'lifeforcecard.png',
-  'lightcard.png',
-  'magician-akker-card.png',
-  'magician-azer-card.png',
-  'magician-mether-card.png',
-  'magician-pip-card.png',
-  'magician-sezar-card.png',
-  'magician-tan-card.png',
-  'magician-tether-card.png',
-  'magician-yan-card.png',
-  'maidencard.png',
-  'memlencard.png',
-  'monster-djerr-card.png',
-  'monster-djeuwet-card.png',
-  'monster-gneuth-card.png',
-  'monster-gnew-card.png',
-  'monster-kehket-card.png',
-  'monster-kekew-card.png',
-  'monster-wehneh-card.png',
-  'monster-weweu-card.png',
-  'mountaincard.png',
-  'musiciancard.png',
-  'mysterycard.png',
-  'plaincard.png',
-  'plantcard.png',
-  'shadowcard.png',
-  'silencecard.png',
-  'soilcard.png',
-  'stonebookcard.png',
-  'timehuntercard.png',
-  'vernowcard.png',
-  'watercard.png',
-  'wormwoodcard.png'
+const imageData = [
+  {
+    fileName: 'achocard.png',
+    description: 'Stability. A firm foundation. Sentience within the inanimate.'
+  },
+  {
+    fileName: 'aircard.png',
+    description: 'The root of Air. Intellect. Meaning depends on card context.'
+  },
+  {
+    fileName: 'animalcard.png',
+    description: 'Something obvious.'
+  },
+  {
+    fileName: 'animalculecard.png',
+    description: 'Raw, unfettered magic. A minuscule change without which a system would collapse. Transformation/inner alchemy.'
+  }
 ];
 
 let button;
@@ -55,10 +24,10 @@ let images = [];
 let texts = [];
 
 function preload() {
-  // Load images
-  for (let i = 0; i < imageFilenames.length; i++) {
-    images.push(loadImage(imageFilenames[i]));
-    texts.push(`Image ${i + 1} description`);
+  // Load images and descriptions
+  for (let i = 0; i < imageData.length; i++) {
+    images.push(loadImage(imageData[i].fileName));
+    texts.push(imageData[i].description);
   }
 }
 

@@ -52,8 +52,8 @@ function draw() {
   // Display image descriptions
   textSize(16);
   fill(0);
-  text(imgText1, width * 0.25, height * 0.9);
-  text(imgText2, width * 0.75, height * 0.9);
+  text(imgText1, width * 0.25, height / 2 + img1.height / 2 + 30);
+  text(imgText2, width * 0.75, height / 2 + img2.height / 2 + 30);
 }
 
 function generateImages() {
@@ -66,6 +66,9 @@ function generateImages() {
 
   img1 = images[randomIndex1];
   img2 = images[randomIndex2];
+  
+  img1.resize(300, 500);
+  img2.resize(300, 500);
 
   imgText1 = texts[randomIndex1];
   imgText2 = texts[randomIndex2];

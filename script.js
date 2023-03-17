@@ -11,7 +11,7 @@ const imageData = [
     fileName: 'animalcard.png',
     description: 'Something obvious.'
   },
-     {
+  {
     fileName: 'animalculecard.png',
     description: 'Raw, unfettered magic. A minuscule change without which a system would collapse. Transformation/inner alchemy.'
   },
@@ -35,7 +35,7 @@ const imageData = [
     fileName: 'eggcard.png',
     description: ' A gift given by the final survivors of an ancient culture. Something valuable found in the wilderness. The Golden Gift of the Sasquatch. A double-yolked egg.'
   },
-     {
+  {
     fileName: 'firecard.png',
     description: 'The root of Fire. Passion. Meaning depends on card context.'
   },
@@ -50,7 +50,7 @@ const imageData = [
   {
     fileName: 'humancard.png',
     description: 'The querent, specifically. Home, community. A default state.'
-  }
+  },
   {
     fileName: 'insectcard.png',
     description: 'Small, considered motions that don’t waste energy. Small changes at the onset gradually turning into huge changes. A tiny representative of a large force that could easily destroy the planet if they could only get organized.'
@@ -87,7 +87,7 @@ const imageData = [
     fileName: 'magician-tan-card.png',
     description: ' The Kind. Honeysuckle and Nettle. Tan means kindness both received and delivered. Honeysuckle cannot be eaten, but the scent and the flavor produced by its flowers represent the kind of kindness the querent will receive, or give. Nettle is a useful plant, but only after one learns how to safely use it.'
   },
-     {
+  {
     fileName: 'magician-tether-card.png',
     description: 'The Calm. Sweet Pea and Rose. Tether provides the kind of simple calmness one experiences just before falling asleep. This Magician is, perhaps, the most peaceful of the Magicians. Tether can represent happiness in love and relationships. As with Sweet Pea and Rose, even though the flowers wither/fall, the plants in question produce delightful and useful fruit.'
   },
@@ -99,7 +99,7 @@ const imageData = [
     fileName: 'maidencard.png',
     description: 'Like Hermes, Messenger of the Gods, the Maiden acts as a conduit between the Hypogeum and “reality.” And, like Artemis, the Maiden is both the act of questioning (hunting), and the results thereof (the hunted).'
   },
-      {
+  {
     fileName: 'memlencard.png',
     description: 'The session must immediately be closed to avoid attracting the attention of unwanted negative energies and entities with questionable intent. A new session may be started at least one hour after the Memlen appear.'
   },
@@ -115,7 +115,7 @@ const imageData = [
     fileName: 'monster-gneuth-card.png',
     description: 'Ruler of Stench. Sow-headed. Stench of the kind represented by Gneuth is like just a tiny amount of dog poop on your shoe. You’ll never find it, and nobody will point it out to you. You need to either keep cleaning the shoes or just get new ones.'
   },
-      {
+  {
     fileName: 'monster-gnew-card.png',
     description: 'Ruler of Smoke. Wolf-headed. Smoke not only obfuscates; it also makes breathing difficult. Gnew is an all-pervasive, general nastiness.'
   },
@@ -147,7 +147,6 @@ const imageData = [
     fileName: 'mysterycard.png',
     description: 'An initiation. Confronting one’s darkness in order to understand life and death. Descending into the Hypogeum via the Imaginal Realm and finding an answer.'
   },
-    },
   {
     fileName: 'plaincard.png',
     description: 'Exposure. Monotony that one can escape by viewing the details.'
@@ -160,7 +159,6 @@ const imageData = [
     fileName: 'shadowcard.png',
     description: 'Darkness for sun lovers, but cool shade for those who thrive in it.'
   },
-        },
   {
     fileName: 'silencecard.png',
     description: 'Silence.'
@@ -173,7 +171,6 @@ const imageData = [
     fileName: 'stonebookcard.png',
     description: 'A new story. A shift of the timeline. Reshuffle the deck and begin a new reading.'
   },
-        },
   {
     fileName: 'timehuntercard.png',
     description: 'Something from the querent’s past—or future!—manifests. At the most mundane level, bureaucracy.'
